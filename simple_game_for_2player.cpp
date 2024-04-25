@@ -3,7 +3,6 @@
 #include <vector>
 #include <string>
 using namespace std;
-int main() {
     // Function to display the Tic Tac Toe board
 void displayBoard(const vector<vector<char>>& board) {
     for (int i = 0; i < 3; ++i) {
@@ -82,5 +81,4 @@ int main() {
         currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
     }
     return 0;
-}
 
